@@ -1,11 +1,9 @@
-/* Сброс */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Фон и шрифт */
 body {
     background-color: #0a0a0a;
     color: #cfcfcf;
@@ -16,12 +14,10 @@ body {
     justify-content: center;
 }
 
-/* Центр */
 .container {
     text-align: center;
 }
 
-/* Ник */
 h1 {
     font-size: 46px;
     font-weight: 400;
@@ -31,7 +27,6 @@ h1 {
     text-shadow: 0 0 3px rgba(120, 0, 0, 0.3);
 }
 
-/* Ссылка */
 .osint-link {
     display: inline-block;
     padding: 6px 18px;
@@ -43,7 +38,6 @@ h1 {
     transition: all 0.2s ease;
 }
 
-/* Hover */
 .osint-link:hover {
     background-color: #160606;
     color: #d06060;
