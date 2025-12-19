@@ -22,9 +22,16 @@ h1 {
     font-size: 46px;
     font-weight: 400;
     letter-spacing: 3px;
-    margin-bottom: 28px;
+    margin-bottom: 12px;
     color: #cfcfcf;
     text-shadow: 0 0 3px rgba(120, 0, 0, 0.3);
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 28px;
+    color: #b04444;
+    font-weight: 300;
 }
 
 .osint-link {
