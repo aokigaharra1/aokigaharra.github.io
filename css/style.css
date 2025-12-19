@@ -1,0 +1,50 @@
+/* Сброс */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Фон и шрифт */
+body {
+    background-color: #0a0a0a;
+    color: #cfcfcf;
+    font-family: Consolas, Monaco, monospace;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Центр */
+.container {
+    text-align: center;
+}
+
+/* Ник */
+h1 {
+    font-size: 46px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 28px;
+    color: #cfcfcf;
+    text-shadow: 0 0 3px rgba(120, 0, 0, 0.3);
+}
+
+/* Ссылка */
+.osint-link {
+    display: inline-block;
+    padding: 6px 18px;
+    font-size: 16px;
+    color: #b04444;
+    border: 1px solid #3a0f0f;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+/* Hover */
+.osint-link:hover {
+    background-color: #160606;
+    color: #d06060;
+}
